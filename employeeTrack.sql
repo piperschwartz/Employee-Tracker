@@ -30,5 +30,3 @@ CREATE TABLE employee(
     FOREIGN KEY (manager_id) REFERENCES role(id)
 
 );
-
-
